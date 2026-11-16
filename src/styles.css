@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=DM+Sans:wght@400;500;600;700&family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -17,3 +17,71 @@
 @media(max-width:1000px){.heritage-header nav,.modern-header nav{gap:18px}.heritage-hero-inner{padding-left:5%;padding-right:5%}.heritage-hero h1{font-size:67px}.hero-cover-front{left:6%}.hero-cover-back{right:4%}.modern-hero h1{font-size:66px}.modern-book-art{height:340px}.modern-book-art .cover{width:150px}.modern-book h3{font-size:30px}.selection-preview-covers{right:1%}.selection-preview-two .cover{right:4%}}
 @media(max-width:760px){.concept-switch{height:32px;font-size:8px}.heritage-header,.modern-header{height:70px;padding:0 5%}.heritage-header nav,.modern-header nav{display:none;position:absolute;top:100%;left:0;right:0;flex-direction:column;align-items:stretch;background:inherit;padding:20px 5%;gap:0;box-shadow:0 12px 20px #0002}.heritage-header nav.open,.modern-header nav.open{display:flex}.heritage-header nav a,.modern-header nav a{padding:11px 0}.mobile-menu{display:block}.heritage-brand{font-size:9px}.brand-mark{width:35px;height:35px}.modern-brand{font-size:22px}.heritage-hero-inner{display:flex;flex-direction:column;padding:65px 7% 20px;min-height:unset}.heritage-hero-copy{width:100%;padding:0}.heritage-hero h1{font-size:clamp(55px,12vw,80px)}.hero-description{font-size:14px}.heritage-hero-art{width:100%;height:450px}.hero-cover-front{width:205px;left:18%;top:13%}.hero-cover-back{width:165px;right:15%;top:31%}.halo{width:400px;height:400px;left:50%;transform:translateX(-50%)}.heritage-intro{grid-template-columns:1fr;padding:75px 7%}.intro-ornament{display:none}.section-index{margin-bottom:20px}.heritage-books{padding:75px 7%}.books-heading{align-items:start;gap:20px;flex-direction:column}.heritage-book-row{grid-template-columns:40% 60%;min-height:unset;gap:0;padding:30px 0}.book-number{grid-column:1/-1;padding-bottom:12px}.book-art-wrap{min-height:260px}.book-art-wrap .cover{width:140px}.book-copy{padding:0 0 0 8%}.book-copy h3{font-size:clamp(28px,5vw,40px)}.heritage-feature{grid-template-columns:1fr}.feature-art{height:480px}.feature-copy{padding:70px 7%}.heritage-bio{grid-template-columns:1fr;padding:80px 7%;gap:55px}.bio-photo{height:420px}.heritage-video{padding:80px 7%}.video-block{aspect-ratio:1.35;padding:30px}.video-corner{right:30px;bottom:30px}.heritage-news,.heritage-contact{display:grid;grid-template-columns:1fr;gap:35px;padding:75px 7%}.heritage-news>div,.heritage-news form{width:100%}.heritage-footer{grid-template-columns:1.5fr 1fr;padding:70px 7% 25px}.modern-hero{grid-template-columns:1fr}.modern-hero-left{min-height:570px;padding:75px 7% 35px}.modern-hero h1{font-size:clamp(55px,10vw,78px)}.modern-hero-right{height:520px}.modern-hero-cover{width:205px}.modern-intro{grid-template-columns:1fr;padding:80px 7%}.modern-intro>p{margin:25px 0}.modern-intro>div{grid-column:1}.modern-collection{padding:80px 7%}.modern-books{grid-template-columns:1fr 1fr}.modern-book:nth-child(2){margin-top:65px}.modern-book:nth-child(3){margin-top:0}.modern-feature{grid-template-columns:1fr}.modern-feature-copy{padding:80px 7%}.modern-feature-art{height:490px}.modern-bio{grid-template-columns:1fr;padding:80px 7%;gap:60px}.modern-portrait{height:450px}.modern-video{padding:80px 7%}.modern-video-heading{align-items:start;flex-direction:column}.modern-video .video-block{aspect-ratio:1.4}.modern-news,.modern-contact{grid-template-columns:1fr;padding:80px 7%;gap:40px}.modern-footer{padding:70px 7% 25px}.selection-grid{grid-template-columns:1fr}.selection main{padding:60px 5%}.selection-preview-one,.selection-preview-two{height:330px}}
 @media(max-width:520px){.hero-buttons{gap:22px;flex-wrap:wrap}.heritage-hero-art{height:370px}.hero-cover-front{width:165px;left:11%}.hero-cover-back{width:140px;right:9%}.halo{width:330px;height:330px}.art-annotation{font-size:8px}.hero-bottom{font-size:8px}.heritage-intro h2{font-size:46px}.books-heading h2{font-size:55px}.heritage-book-row{grid-template-columns:1fr}.book-art-wrap{height:300px}.book-copy{padding:24px 0 0}.book-copy h3{min-height:unset}.heritage-feature .feature-art{height:400px}.feature-cover{width:180px}.heritage-footer{grid-template-columns:1fr 1fr}.heritage-footer>div:first-child{grid-column:1/-1}.heritage-footer>div:nth-child(4){grid-column:1/-1}.footer-bottom{gap:12px;flex-direction:column}.video-block{aspect-ratio:1;padding:25px}.video-block h3{font-size:27px}.video-corner{display:none}.modern-hero-left{min-height:610px}.modern-hero h1{font-size:54px}.modern-hero-right{height:470px}.modern-intro>p{font-size:39px}.modern-collection-head{align-items:start;flex-direction:column}.modern-books{grid-template-columns:1fr}.modern-book:nth-child(2),.modern-book:nth-child(3){margin-top:15px}.modern-book-art{height:420px}.modern-book-art .cover{width:190px}.modern-book h3{min-height:unset}.modern-feature h2{font-size:51px}.modern-feature-art{height:440px}.modern-portrait{height:400px}.modern-footer-links{grid-template-columns:1fr 1fr}.modern-footer-links>div:nth-child(3){grid-column:1/-1}.modern-footer-bottom{gap:12px;flex-direction:column}.selection-header span:last-child,.selection-footer span{display:none}.selection-heading h1{font-size:59px}.selection-preview-one>strong,.selection-preview-two>strong{font-size:38px}.selection-preview-covers{right:-9%;top:60px;opacity:.7}.selection-preview-two .cover{right:-5%;top:83px;opacity:.75}.form-row{grid-template-columns:1fr}.drawer-head,.drawer-body,.drawer-foot{padding-left:20px;padding-right:20px}}
+
+/* The two directions deliberately use different type and page architecture. */
+.heritage h1,.heritage h2,.heritage h3{font-family:'Cormorant Garamond',serif;font-weight:500}
+.heritage-hero h1{font-size:clamp(72px,7.2vw,116px);line-height:.9}
+.heritage-hero h1 em,.heritage-intro h2 em,.books-heading h2 em,.feature-copy h2 em,.bio-copy h2 em,.heritage-contact h2 em{font-weight:400}
+.heritage-hero-art:after{content:'✦';position:absolute;left:0;bottom:18%;font:52px 'Cormorant Garamond',serif;color:#b99b60;opacity:.55}
+.heritage-books .book-copy h3{font-size:clamp(38px,4vw,61px)}
+.heritage .cover{box-shadow:13px 19px 25px #0004,2px 2px 1px #0004}
+
+.modern{font-family:'Plus Jakarta Sans',sans-serif;background:#fbfaf6;color:#202727}
+.modern h1,.modern h2,.modern h3{font-family:'Bodoni Moda',serif;font-weight:400;letter-spacing:-.055em}
+.modern-header{height:100px;padding:0 6%;background:#fbfaf6}
+.modern-brand{font-family:'Bodoni Moda',serif;font-size:27px}
+.modern-header nav{text-transform:uppercase;letter-spacing:.12em;font-size:9px;gap:29px}
+.modern-hero{grid-template-columns:61% 39%;min-height:740px;border-bottom:1px solid #d7d5cd}
+.modern-hero-left{padding:90px 8% 30px 10%;background:#fbfaf6}
+.modern-hero h1{font-size:clamp(70px,7vw,108px);line-height:.98;max-width:880px;margin-top:65px}
+.modern-hero h1 em{color:#a1845c}
+.modern-hero-left>p:not(.modern-eyebrow){max-width:410px;font-size:13px}
+.modern-hero-right{background:#f0f0eb;border-left:1px solid #d7d5cd;padding:65px 8% 40px}
+.modern-hero-right:before{inset:6% 10%;border-color:#c7c5bc}
+.modern-hero-right:after{content:'03';position:absolute;right:11%;top:5%;font:400 170px/.8 'Bodoni Moda',serif;color:#d9d9d0;pointer-events:none}
+.modern-hero-cover{width:270px;box-shadow:23px 27px 40px #303c3540}
+.modern-hero-caption{margin-top:50px}
+.modern-hero-caption strong{font-size:11px;max-width:220px}
+.modern-intro{padding:120px 9%;grid-template-columns:23% 77%;background:#fff}
+.modern-intro>p{font-family:'Bodoni Moda',serif;font-size:clamp(40px,4.1vw,66px);line-height:1.22}
+.modern-collection{padding:120px 6% 140px;background:#fbfaf6}
+.modern-collection-head h2{font-size:clamp(68px,6.5vw,105px)}
+.modern-books{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,.75fr);grid-template-rows:auto auto;gap:22px 42px;margin-top:70px}
+.modern-book{display:grid;grid-template-columns:1fr;min-width:0}
+.modern-book:nth-child(1){grid-row:1/3;grid-column:1}
+.modern-book:nth-child(2){grid-row:1;grid-column:2;margin:0;display:grid;grid-template-columns:42% 58%;gap:22px;align-items:center;border-top:1px solid #d2d4ce;padding-top:22px}
+.modern-book:nth-child(3){grid-row:2;grid-column:2;margin:0;display:grid;grid-template-columns:42% 58%;gap:22px;align-items:center;border-top:1px solid #d2d4ce;padding-top:22px}
+.modern-book:nth-child(1) .modern-book-art{height:660px;background:#eceae2}
+.modern-book:nth-child(1) .modern-book-art .cover{width:265px}
+.modern-book:nth-child(2) .modern-book-art,.modern-book:nth-child(3) .modern-book-art{height:300px;background:#eff0ea}
+.modern-book:nth-child(2) .modern-book-art .cover,.modern-book:nth-child(3) .modern-book-art .cover{width:125px}
+.modern-book:nth-child(2) .cover-title,.modern-book:nth-child(3) .cover-title{font-size:12px;line-height:1.2;overflow-wrap:normal}
+.modern-book:nth-child(2) .cover-center,.modern-book:nth-child(3) .cover-center{gap:6px}
+.modern-book:nth-child(2) .cover-kicker,.modern-book:nth-child(3) .cover-kicker,.modern-book:nth-child(2) .cover-author,.modern-book:nth-child(3) .cover-author,.modern-book:nth-child(2) .cover-placeholder,.modern-book:nth-child(3) .cover-placeholder{font-size:6px}
+.modern-book:nth-child(2) .modern-book-details,.modern-book:nth-child(3) .modern-book-details{padding:0}
+.modern-book:nth-child(2) h3,.modern-book:nth-child(3) h3{font-size:clamp(23px,2.2vw,34px);min-height:0}
+.modern-book:nth-child(1) h3{font-size:clamp(38px,3.4vw,55px);min-height:0}
+.modern-book:nth-child(2) .modern-book-bottom,.modern-book:nth-child(3) .modern-book-bottom{margin-top:14px}
+.modern-book-details>p{min-height:0}
+.modern-feature{min-height:620px;grid-template-columns:57% 43%;background:#e8eae6;border-top:1px solid #d3d7d1;border-bottom:1px solid #d3d7d1}
+.modern-feature-copy{padding:100px 10% 80px 11%}
+.modern-feature h2{font-size:clamp(55px,5.5vw,88px)}
+.modern-feature-art{background:#dce0da}
+.modern-feature-art:before{content:'NEW';font:400 clamp(110px,13vw,210px)/1 'Bodoni Moda',serif;letter-spacing:-.1em;color:#e9ece7;position:absolute;top:10%;left:-7%;pointer-events:none}
+.modern-feature-art .feature-cover{z-index:1;box-shadow:20px 25px 35px #35403b33}
+.modern-bio{background:#fff;grid-template-columns:43% 57%;padding:130px 9%}
+.modern-bio h2{font-size:clamp(65px,6vw,95px)}
+.modern-portrait{background:repeating-linear-gradient(90deg,#d7d9d2 0,#d7d9d2 1px,#e4e5df 1px,#e4e5df 36px)}
+.modern-video{background:#1f2928}
+.modern-news{background:#fbfaf6}
+.modern-contact{background:#fff}
+.modern-footer{background:#e6e7e1}
+.selection-preview-one>strong{font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(44px,4.5vw,70px);line-height:.9}
+.selection-preview-two>strong{font-family:'Bodoni Moda',serif;font-size:clamp(33px,3.5vw,53px);line-height:1.05}
+.selection-preview-two{background:#eeefe9}
+.selection-preview-two:after{content:'03';position:absolute;right:3%;bottom:-5%;font:400 170px 'Bodoni Moda',serif;color:#dedfd7}
+.selection-preview-two .cover{z-index:2}
+
+@media(max-width:1000px){.modern-books{grid-template-columns:1fr 1fr;gap:20px}.modern-book:nth-child(2),.modern-book:nth-child(3){grid-template-columns:1fr;gap:0}.modern-book:nth-child(1) .modern-book-art{height:600px}.modern-book:nth-child(2) .modern-book-art,.modern-book:nth-child(3) .modern-book-art{height:250px}.modern-book:nth-child(2) .modern-book-details,.modern-book:nth-child(3) .modern-book-details{padding:18px 0}}
+@media(max-width:760px){.heritage-hero h1{font-size:clamp(64px,12vw,92px)}.modern-header{height:70px;padding:0 5%}.modern-hero{grid-template-columns:1fr;min-height:0}.modern-hero-left{min-height:600px;padding:75px 7% 32px}.modern-hero h1{font-size:clamp(63px,10vw,82px);margin-top:50px}.modern-hero-right{height:590px;border-left:0;border-top:1px solid #d7d5cd}.modern-hero-right:after{font-size:145px}.modern-intro{grid-template-columns:1fr;padding:85px 7%}.modern-intro>p{font-size:clamp(40px,6vw,55px)}.modern-collection{padding:85px 7%}.modern-books{grid-template-columns:1fr 1fr;grid-template-rows:auto auto}.modern-book:nth-child(1) .modern-book-art{height:500px}.modern-book:nth-child(1) .modern-book-art .cover{width:210px}.modern-book:nth-child(2) .modern-book-art,.modern-book:nth-child(3) .modern-book-art{height:205px}.modern-feature{grid-template-columns:1fr}.modern-feature-copy{padding:80px 7%}.modern-feature-art{height:460px}.modern-bio{grid-template-columns:1fr;padding:85px 7%}}
+@media(max-width:520px){.heritage-hero h1{font-size:64px}.modern-hero-left{min-height:610px}.modern-hero h1{font-size:56px}.modern-hero-right{height:510px}.modern-hero-cover{width:205px}.modern-books{grid-template-columns:1fr;grid-template-rows:auto}.modern-book:nth-child(1),.modern-book:nth-child(2),.modern-book:nth-child(3){grid-column:1;grid-row:auto}.modern-book:nth-child(1) .modern-book-art{height:430px}.modern-book:nth-child(1) .modern-book-art .cover{width:195px}.modern-book:nth-child(2),.modern-book:nth-child(3){grid-template-columns:43% 57%;gap:14px}.modern-book:nth-child(2) .modern-book-art,.modern-book:nth-child(3) .modern-book-art{height:235px}.modern-book:nth-child(2) .modern-book-art .cover,.modern-book:nth-child(3) .modern-book-art .cover{width:90px}.modern-book:nth-child(2) h3,.modern-book:nth-child(3) h3{font-size:23px}.modern-book:nth-child(2) .modern-book-bottom,.modern-book:nth-child(3) .modern-book-bottom{gap:8px}.modern-add .add-button{gap:5px;padding:0 8px}.modern-feature h2{font-size:57px}.modern-feature-art{height:420px}.selection-preview-one>strong{font-size:48px}.selection-preview-two>strong{font-size:37px}}
