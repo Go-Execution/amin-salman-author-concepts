@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=DM+Sans:wght@400;500;600;700&family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=DM+Sans:wght@400;500;600;700&family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -85,3 +85,83 @@
 @media(max-width:1000px){.modern-books{grid-template-columns:1fr 1fr;gap:20px}.modern-book:nth-child(2),.modern-book:nth-child(3){grid-template-columns:1fr;gap:0}.modern-book:nth-child(1) .modern-book-art{height:600px}.modern-book:nth-child(2) .modern-book-art,.modern-book:nth-child(3) .modern-book-art{height:250px}.modern-book:nth-child(2) .modern-book-details,.modern-book:nth-child(3) .modern-book-details{padding:18px 0}}
 @media(max-width:760px){.heritage-hero h1{font-size:clamp(64px,12vw,92px)}.modern-header{height:70px;padding:0 5%}.modern-hero{grid-template-columns:1fr;min-height:0}.modern-hero-left{min-height:600px;padding:75px 7% 32px}.modern-hero h1{font-size:clamp(63px,10vw,82px);margin-top:50px}.modern-hero-right{height:590px;border-left:0;border-top:1px solid #d7d5cd}.modern-hero-right:after{font-size:145px}.modern-intro{grid-template-columns:1fr;padding:85px 7%}.modern-intro>p{font-size:clamp(40px,6vw,55px)}.modern-collection{padding:85px 7%}.modern-books{grid-template-columns:1fr 1fr;grid-template-rows:auto auto}.modern-book:nth-child(1) .modern-book-art{height:500px}.modern-book:nth-child(1) .modern-book-art .cover{width:210px}.modern-book:nth-child(2) .modern-book-art,.modern-book:nth-child(3) .modern-book-art{height:205px}.modern-feature{grid-template-columns:1fr}.modern-feature-copy{padding:80px 7%}.modern-feature-art{height:460px}.modern-bio{grid-template-columns:1fr;padding:85px 7%}}
 @media(max-width:520px){.heritage-hero h1{font-size:64px}.modern-hero-left{min-height:610px}.modern-hero h1{font-size:56px}.modern-hero-right{height:510px}.modern-hero-cover{width:205px}.modern-books{grid-template-columns:1fr;grid-template-rows:auto}.modern-book:nth-child(1),.modern-book:nth-child(2),.modern-book:nth-child(3){grid-column:1;grid-row:auto}.modern-book:nth-child(1) .modern-book-art{height:430px}.modern-book:nth-child(1) .modern-book-art .cover{width:195px}.modern-book:nth-child(2),.modern-book:nth-child(3){grid-template-columns:43% 57%;gap:14px}.modern-book:nth-child(2) .modern-book-art,.modern-book:nth-child(3) .modern-book-art{height:235px}.modern-book:nth-child(2) .modern-book-art .cover,.modern-book:nth-child(3) .modern-book-art .cover{width:90px}.modern-book:nth-child(2) h3,.modern-book:nth-child(3) h3{font-size:23px}.modern-book:nth-child(2) .modern-book-bottom,.modern-book:nth-child(3) .modern-book-bottom{gap:8px}.modern-add .add-button{gap:5px;padding:0 8px}.modern-feature h2{font-size:57px}.modern-feature-art{height:420px}.selection-preview-one>strong{font-size:48px}.selection-preview-two>strong{font-size:37px}}
+
+/* Concept two: a type-led publishing studio rather than a second heritage page. */
+.modern{font-family:'Space Grotesk',sans-serif;background:#f8f6f0;color:#242522}
+.modern h1,.modern h2{font-family:'Space Grotesk',sans-serif;font-weight:700;letter-spacing:-.085em}
+.modern h3{font-family:'Bodoni Moda',serif;font-weight:400;letter-spacing:-.045em}
+.modern em{font-family:'Bodoni Moda',serif;font-weight:400;letter-spacing:-.075em;color:#b14e39!important}
+.modern .period,.modern-section-number{color:#b14e39}
+.modern .modern-eyebrow{color:#514c46}
+.modern-header{background:#f8f6f0;border-bottom:2px solid #272824;height:84px}
+.modern-brand{font-family:'Space Grotesk',sans-serif;font-size:27px;font-weight:700;letter-spacing:-.08em;text-transform:lowercase}
+.modern-brand span{font-size:8px;font-weight:500;letter-spacing:.22em;text-transform:uppercase}
+.modern-header nav{font-family:'Space Grotesk',sans-serif;font-size:10px;font-weight:700}
+.modern-bag{font-size:12px;font-weight:700}
+.modern-hero{display:flex;flex-direction:column;min-height:0;border:0}
+.modern-hero-left{min-height:680px;width:100%;padding:65px 6% 45px;display:grid;grid-template-columns:minmax(0,1fr) 280px;grid-template-rows:auto 1fr auto auto;align-items:end;gap:0;background:#f8f6f0}
+.modern-hero .modern-eyebrow{grid-column:1/-1;align-self:start;margin:0}
+.modern-hero h1{grid-column:1/-1;align-self:center;max-width:1150px;font-size:clamp(77px,9.1vw,142px);line-height:.82;text-transform:uppercase;margin:40px 0 20px}
+.modern-hero-left>p:not(.modern-eyebrow){grid-column:1;max-width:450px;font-size:14px;line-height:1.6;margin:20px 0}
+.modern-hero .dark-button{grid-column:2;justify-self:end;background:#b14e39;margin:0;text-transform:uppercase;letter-spacing:.08em;font-size:10px;padding:20px 22px}
+.modern-hero .dark-button:hover{background:#8f3d2d}
+.modern-hero .hero-footnote{grid-column:1/-1;margin:45px 0 0;border-top:2px solid #292a26;padding-top:18px;font-size:10px;color:#514c46}
+.modern-hero-right{width:100%;height:365px;display:grid;grid-template-columns:1fr 280px 1fr;align-items:center;justify-items:center;padding:20px 6%;background:#d9d5c8;border-top:2px solid #272824;border-left:0;position:relative;overflow:hidden}
+.modern-hero-right:before{display:none}
+.modern-hero-right:after{content:'NEW WORK';font:700 clamp(80px,10vw,155px)/1 'Space Grotesk',sans-serif;letter-spacing:-.09em;right:5%;top:17%;color:#c9c4b6;white-space:nowrap}
+.modern-hero-right .vertical-label{position:static;transform:none;justify-self:start;color:#3a3b35;font-size:11px;writing-mode:vertical-rl;letter-spacing:.17em}
+.modern-hero-cover{width:170px;box-shadow:14px 18px 24px #2e302d3a;z-index:2}
+.modern-hero-caption{justify-self:end;width:225px;margin:0;align-self:end;max-width:unset;border-color:#6c6a61;z-index:2}
+.modern-hero-caption strong{font-size:13px;line-height:1.4}
+.modern-intro{background:#292b28;color:#f7f5ee;border:0;display:grid;grid-template-columns:20% 80%;padding:115px 6%}
+.modern-intro .modern-section-number{color:#db9b82}
+.modern-intro>p{font:400 clamp(38px,4.1vw,64px)/1.23 'Bodoni Moda',serif;letter-spacing:-.045em}
+.modern-intro>div span{color:#b3b4a9}
+.modern-feature{background:#f0eee7;grid-template-columns:58% 42%;min-height:660px;border-bottom:2px solid #292a26}
+.modern-feature-copy{padding:100px 10% 90px 11%}
+.modern-feature h2{font-size:clamp(54px,5.8vw,91px);line-height:.98;text-transform:uppercase}
+.modern-feature h3{font-family:'Bodoni Moda',serif;font-size:29px}
+.modern-feature-art{background:#e1dfd5}
+.modern-feature-art:before{content:'02';font:700 clamp(160px,17vw,270px)/1 'Space Grotesk',sans-serif;color:#d1cfc2;top:5%;left:0}
+.modern-collection{background:#fff;padding:125px 6% 145px}
+.modern-collection-head h2{font-size:clamp(70px,8vw,130px);text-transform:uppercase;line-height:.9;margin-top:30px}
+.modern-collection-head>p{font-size:13px;color:#585954}
+.modern-books{margin-top:100px}
+.modern-book-art{border:1px solid #d1d0c8}
+.modern-book:nth-child(1) .modern-book-art{background:#eae8dd}
+.modern-book:nth-child(2) .modern-book-art,.modern-book:nth-child(3) .modern-book-art{background:#f1f0eb}
+.modern-book-index{color:#b14e39}
+.modern-book:nth-child(1) h3{font-size:clamp(42px,4vw,65px)}
+.modern-book-bottom{border-color:#292a26}
+.modern-add .add-button{border-color:#b14e39;color:#b14e39}
+.modern-add .add-button:hover{background:#b14e39;border-color:#b14e39}
+.modern-bio{background:#e1e4df;grid-template-columns:42% 58%;padding:130px 9%}
+.modern-bio h2{font-size:clamp(64px,7vw,110px);line-height:.93;text-transform:uppercase}
+.modern-portrait{background:repeating-linear-gradient(0deg,#bac3bd 0,#bac3bd 1px,#d6ddd6 1px,#d6ddd6 28px)}
+.modern-video{background:#f8f6f0;color:#242522;border-top:2px solid #292a26}
+.modern-video .modern-section-number{color:#b14e39}
+.modern-video-heading p{color:#646660}
+.modern-video h2{font-size:clamp(66px,7vw,105px);text-transform:uppercase;line-height:1}
+.modern-video .video-block{background:#262b29;color:#f7f5ee}
+.modern-video .video-block p{color:#b7c0b9}
+.modern-video .video-play{border-color:#f7f5ee;color:#f7f5ee}
+.modern-news{background:#b14e39;color:#fff;border:0;grid-template-columns:1fr 1fr}
+.modern-news .modern-section-number{color:#f5d0c3}
+.modern-news h2{font-size:clamp(56px,6vw,92px);text-transform:uppercase;line-height:.93}
+.modern-news p{color:#ffe0d4}
+.modern-contact{background:#f8f6f0}
+.modern-contact h2{font-size:clamp(70px,8vw,124px);text-transform:uppercase;line-height:.88}
+.modern-contact .contact-form button{background:#b14e39}
+.modern-footer{background:#292b28;color:#f7f5ee}
+.modern-footer-top p,.modern-footer-links span,.modern-footer-bottom{color:#b7b8ad}
+.modern-footer-links,.modern-footer-bottom{border-color:#ffffff37}
+.modern-footer-links a{color:#f7f5ee}
+.selection-preview-two{background:#e9e5d9;color:#252622}
+.selection-preview-two>strong{font:700 clamp(35px,4.2vw,64px)/.92 'Space Grotesk',sans-serif;letter-spacing:-.08em;text-transform:uppercase;margin-top:38px;max-width:78%;z-index:2}
+.selection-preview-two em{font-family:'Bodoni Moda',serif;font-weight:400;text-transform:none;color:#b14e39}
+.selection-preview-two:after{content:'02';font:700 180px 'Space Grotesk',sans-serif;letter-spacing:-.1em;color:#d3cfc2;bottom:-7%;right:2%}
+.selection-preview-two .cover{right:7%;top:126px;width:130px}
+
+@media(max-width:1000px){.modern-hero h1{font-size:clamp(72px,8.4vw,105px)}.modern-hero-left{min-height:600px}.modern-hero-right{grid-template-columns:1fr 220px 1fr}.modern-hero-caption{width:180px}}
+@media(max-width:760px){.modern-header{height:70px}.modern-header nav{background:#f8f6f0}.modern-hero-left{display:flex;flex-direction:column;align-items:flex-start;min-height:0;padding:65px 7% 35px}.modern-hero h1{font-size:clamp(63px,10.8vw,92px);margin:85px 0 45px;line-height:.9}.modern-hero-left>p:not(.modern-eyebrow){margin:0 0 28px}.modern-hero .dark-button{align-self:flex-start}.modern-hero .hero-footnote{width:100%;margin-top:55px}.modern-hero-right{height:380px;grid-template-columns:1fr 150px 1fr;padding:20px 7%}.modern-hero-right:after{font-size:100px;top:27%}.modern-hero-cover{width:145px}.modern-hero-caption{width:140px}.modern-hero-caption strong{font-size:11px}.modern-intro{grid-template-columns:1fr;padding:80px 7%}.modern-intro>p{font-size:42px;margin:30px 0}.modern-feature{grid-template-columns:1fr}.modern-feature-copy{padding:80px 7%}.modern-feature h2{font-size:clamp(58px,8vw,82px)}.modern-feature-art{height:440px}.modern-collection{padding:90px 7%}.modern-collection-head h2{font-size:clamp(62px,10vw,90px)}.modern-books{margin-top:65px}.modern-bio{grid-template-columns:1fr;padding:90px 7%}.modern-bio h2{font-size:80px}.modern-video h2{font-size:76px}.modern-news h2{font-size:65px}.modern-contact h2{font-size:75px}}
+@media(max-width:520px){.modern-hero h1{font-size:clamp(52px,13.7vw,70px);margin:70px 0 35px}.modern-hero-right{height:340px;grid-template-columns:25px 135px 1fr;gap:10px}.modern-hero-right:after{font-size:76px;top:15%}.modern-hero-right .vertical-label{font-size:8px}.modern-hero-cover{width:125px}.modern-hero-caption{width:auto;min-width:0}.modern-hero-caption strong{font-size:10px}.modern-intro>p{font-size:36px}.modern-feature h2{font-size:56px}.modern-collection-head h2{font-size:57px}.modern-bio h2{font-size:68px}.modern-video h2{font-size:62px}.modern-news h2{font-size:58px}.modern-contact h2{font-size:65px}.selection-preview-two>strong{font-size:clamp(33px,9vw,45px);max-width:85%}.selection-preview-two .cover{right:2%;top:154px;width:100px}}
